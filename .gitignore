@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# raw dataset is distributed by the course - not redistributed here
+data/
+Student folder/
+*.zip
+# regenerable feature cache (scripts/03_build_dataset.py)
+cache/
+# feature CSV exports (scripts/09_export_features_csv.py), >100 MB
+results/features/
