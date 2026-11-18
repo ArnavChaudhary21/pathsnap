@@ -1,0 +1,59 @@
+{
+  "classifier": "lgbm_tuned",
+  "algorithm": "lgbm",
+  "classifier_params": {
+    "n_estimators": 553,
+    "learning_rate": 0.11772540256682847,
+    "num_leaves": 197,
+    "min_child_samples": 97,
+    "subsample": 0.9930363637200957,
+    "colsample_bytree": 0.8027562159805006,
+    "reg_lambda": 0.028066124695364212
+  },
+  "features": [
+    "dist",
+    "dist_rel",
+    "dist_rank",
+    "n_cand",
+    "log_n_cand_20m",
+    "head_diff",
+    "head_diff_rel",
+    "cos_head",
+    "speed",
+    "turn_rate",
+    "win_dist",
+    "win_dist_rel",
+    "win_dist_far",
+    "win_head_diff",
+    "t_along",
+    "off_end",
+    "log_arc_len",
+    "out_deg_to",
+    "in_deg_from",
+    "dt_prev",
+    "dt_next",
+    "radius_level"
+  ],
+  "candidate_config": {
+    "radius": 50.0,
+    "max_cand": 10,
+    "expand": [
+      2.0,
+      4.0
+    ],
+    "head_win": 2,
+    "ctx_win": 5
+  },
+  "hmm_params": {
+    "beta": 5.0,
+    "emission_weight": 1.0,
+    "break_penalty": 30.0,
+    "gap_growth": 0.1,
+    "backtrack_m": 15.0,
+    "cutoff_factor": 3.0,
+    "cutoff_slack": 150.0,
+    "vmax": 60.0,
+    "cutoff_cap": 8000.0
+  },
+  "hmm_params_source": "default"
+}
