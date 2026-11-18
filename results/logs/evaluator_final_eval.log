@@ -1,0 +1,37 @@
+00000015: clf top1=0.8213  hmm top1=0.9104  hmm route F1=0.8655  (1.6s)
+00000017: clf top1=0.9361  hmm top1=0.9480  hmm route F1=0.9409  (0.9s)
+00000023: clf top1=0.9432  hmm top1=0.9498  hmm route F1=0.9940  (0.2s)
+00000030: clf top1=0.8318  hmm top1=0.8869  hmm route F1=0.9294  (0.4s)
+00000049: clf top1=0.9951  hmm top1=0.9970  hmm route F1=0.9979  (0.8s)
+00000059: clf top1=0.9699  hmm top1=0.9806  hmm route F1=0.9739  (0.6s)
+00000067: clf top1=0.9596  hmm top1=0.9640  hmm route F1=0.9751  (0.3s)
+00000073: clf top1=0.9860  hmm top1=0.9895  hmm route F1=0.9962  (0.9s)
+00000087: clf top1=0.9643  hmm top1=0.9964  hmm route F1=0.9944  (0.8s)
+00000094: clf top1=0.9412  hmm top1=0.9548  hmm route F1=0.9853  (1.1s)
+{
+  "partition": "evaluator_test",
+  "n_trips": 10,
+  "model": "lgbm_tuned",
+  "hmm_params": {
+    "beta": 5.0,
+    "emission_weight": 1.0,
+    "break_penalty": 30.0,
+    "gap_growth": 0.1,
+    "backtrack_m": 15.0,
+    "cutoff_factor": 3.0,
+    "cutoff_slack": 150.0,
+    "vmax": 60.0,
+    "cutoff_cap": 8000.0
+  },
+  "classifier_only_top1_accuracy": 0.9094285859665191,
+  "classifier_only_route_continuity_mean": 0.9707085380565926,
+  "classifier_only_route_precision_mean": 0.9112643785912065,
+  "classifier_only_route_recall_mean": 0.9684778762685349,
+  "classifier_only_route_f1_mean": 0.9310407024470212,
+  "hmm_top1_accuracy": 0.9489645346766398,
+  "hmm_route_continuity_mean": 0.9988498579088813,
+  "hmm_route_precision_mean": 0.9645558705100706,
+  "hmm_route_recall_mean": 0.9693985136923651,
+  "hmm_route_f1_mean": 0.965264464868272,
+  "mean_total_s_per_trip": 0.7509374199958984
+}

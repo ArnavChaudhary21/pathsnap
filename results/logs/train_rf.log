@@ -1,0 +1,6 @@
+[rf] fold 0: val F1=0.9326 top1=0.8804 ll=0.0929 | train F1=0.9782 (85.1s)
+[rf] fold 1: val F1=0.9620 top1=0.9333 ll=0.0551 | train F1=0.9749 (42.6s)
+[rf] fold 2: val F1=0.9640 top1=0.9378 ll=0.0548 | train F1=0.9751 (40.1s)
+[rf] fold 3: val F1=0.9451 top1=0.9061 ll=0.0921 | train F1=0.9783 (58.8s)
+[rf] fold 4: val F1=0.9288 top1=0.8752 ll=0.1021 | train F1=0.9791 (113.7s)
+[rf] student_test: {"macro_f1": 0.9436, "precision_pos": 0.903, "recall_pos": 0.9042, "log_loss": 0.0747, "top1_acc": 0.903, "n_labelled_obs": 19133, "candidate_miss_rate": 0.0013, "route_continuity_mean": 0.9644, "route_f1_mean": 0.9529, "route_precision_mean": 0.9302, "route_recall_mean": 0.9775, "inference_s_total": 0.9767, "inference_ms_per_1000_obs": 50.9777}

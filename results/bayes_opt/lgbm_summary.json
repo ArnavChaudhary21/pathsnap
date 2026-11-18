@@ -1,0 +1,21 @@
+{
+  "model": "lgbm",
+  "sampler": "TPE (multivariate, seed=352)",
+  "pruner": "MedianPruner",
+  "objective": "mean 5-fold GroupKFold Macro F1 (train trips, stride 3)",
+  "n_trials_total": 42,
+  "n_complete": 18,
+  "n_pruned": 22,
+  "wall_seconds_this_run": 1228.9903202056885,
+  "best_value": 0.9470892204132397,
+  "best_trial": 25,
+  "best_params": {
+    "n_estimators": 553,
+    "learning_rate": 0.11772540256682847,
+    "num_leaves": 197,
+    "min_child_samples": 97,
+    "subsample": 0.9930363637200957,
+    "colsample_bytree": 0.8027562159805006,
+    "reg_lambda": 0.028066124695364212
+  }
+}

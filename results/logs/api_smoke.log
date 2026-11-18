@@ -1,0 +1,39 @@
+2026-11-18 15:56:59,754 INFO Loaded classifier=lgbm_tuned hmm={'beta': 5.0, 'emission_weight': 1.0, 'break_penalty': 30.0, 'gap_growth': 0.1, 'backtrack_m': 15.0, 'cutoff_factor': 3.0, 'cutoff_slack': 150.0, 'vmax': 60.0, 'cutoff_cap': 8000.0} eval_dir=c:\Users\USER\Desktop\ml_project\evaluator_test\evaluator_test
+INFO:     Started server process [2896]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64918 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64922 - "GET /trips HTTP/1.1" 200 OK
+2026-11-18 15:57:00,742 INFO REQUEST client=127.0.0.1 trip=00000015 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:02,404 INFO RESPONSE client=127.0.0.1 trip=00000015 n_obs=6854 predicted_arcs=283 top1=0.9104 time=1.66s
+INFO:     127.0.0.1:64923 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:03,594 INFO REQUEST client=127.0.0.1 trip=00000017 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:04,898 INFO RESPONSE client=127.0.0.1 trip=00000017 n_obs=1346 predicted_arcs=599 top1=0.9480 time=1.30s
+INFO:     127.0.0.1:64924 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:05,561 INFO REQUEST client=127.0.0.1 trip=00000023 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:05,876 INFO RESPONSE client=127.0.0.1 trip=00000023 n_obs=458 predicted_arcs=60 top1=0.9498 time=0.31s
+INFO:     127.0.0.1:64930 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:06,324 INFO REQUEST client=127.0.0.1 trip=00000030 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:06,851 INFO RESPONSE client=127.0.0.1 trip=00000030 n_obs=654 predicted_arcs=266 top1=0.8869 time=0.53s
+INFO:     127.0.0.1:64931 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:07,417 INFO REQUEST client=127.0.0.1 trip=00000049 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:08,341 INFO RESPONSE client=127.0.0.1 trip=00000049 n_obs=2642 predicted_arcs=394 top1=0.9970 time=0.92s
+INFO:     127.0.0.1:64932 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:09,503 INFO REQUEST client=127.0.0.1 trip=00000059 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:10,286 INFO RESPONSE client=127.0.0.1 trip=00000059 n_obs=1031 predicted_arcs=351 top1=0.9806 time=0.78s
+INFO:     127.0.0.1:64933 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:10,954 INFO REQUEST client=127.0.0.1 trip=00000067 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:11,317 INFO RESPONSE client=127.0.0.1 trip=00000067 n_obs=916 predicted_arcs=74 top1=0.9640 time=0.36s
+INFO:     127.0.0.1:64934 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:11,992 INFO REQUEST client=127.0.0.1 trip=00000073 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:13,010 INFO RESPONSE client=127.0.0.1 trip=00000073 n_obs=1144 predicted_arcs=228 top1=0.9895 time=1.02s
+INFO:     127.0.0.1:65242 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:13,709 INFO REQUEST client=127.0.0.1 trip=00000087 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:14,940 INFO RESPONSE client=127.0.0.1 trip=00000087 n_obs=1399 predicted_arcs=440 top1=0.9964 time=1.23s
+INFO:     127.0.0.1:65243 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:15,882 INFO REQUEST client=127.0.0.1 trip=00000094 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:17,365 INFO RESPONSE client=127.0.0.1 trip=00000094 n_obs=3230 predicted_arcs=584 top1=0.9548 time=1.48s
+INFO:     127.0.0.1:65244 - "POST /predict HTTP/1.1" 200 OK
+2026-11-18 15:57:18,792 WARNING REJECT client=127.0.0.1 trip='../x' (unknown trip)
+INFO:     127.0.0.1:65245 - "POST /predict HTTP/1.1" 404 Not Found

@@ -1,0 +1,8 @@
+[mlp] fold 0: val F1=0.9308 top1=0.8776 ll=0.1014 | train F1=0.9538 (31.7s)
+[mlp] fold 1: val F1=0.9588 top1=0.9277 ll=0.0605 | train F1=0.9532 (49.0s)
+[mlp] fold 2: val F1=0.9602 top1=0.9312 ll=0.0614 | train F1=0.9514 (37.5s)
+C:\Users\USER\Desktop\ml_project\pathsnap\.venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[mlp] fold 3: val F1=0.9393 top1=0.8964 ll=0.1027 | train F1=0.9579 (54.5s)
+[mlp] fold 4: val F1=0.9264 top1=0.8713 ll=0.1091 | train F1=0.9572 (37.4s)
+[mlp] student_test: {"macro_f1": 0.9367, "precision_pos": 0.8913, "recall_pos": 0.8925, "log_loss": 0.0832, "top1_acc": 0.8913, "n_labelled_obs": 19133, "candidate_miss_rate": 0.0013, "route_continuity_mean": 0.967, "route_f1_mean": 0.9525, "route_precision_mean": 0.9314, "route_recall_mean": 0.9759, "inference_s_total": 0.0547, "inference_ms_per_1000_obs": 2.8542}

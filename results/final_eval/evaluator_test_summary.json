@@ -1,0 +1,27 @@
+{
+  "partition": "evaluator_test",
+  "n_trips": 10,
+  "model": "lgbm_tuned",
+  "hmm_params": {
+    "beta": 5.0,
+    "emission_weight": 1.0,
+    "break_penalty": 30.0,
+    "gap_growth": 0.1,
+    "backtrack_m": 15.0,
+    "cutoff_factor": 3.0,
+    "cutoff_slack": 150.0,
+    "vmax": 60.0,
+    "cutoff_cap": 8000.0
+  },
+  "classifier_only_top1_accuracy": 0.9094285859665191,
+  "classifier_only_route_continuity_mean": 0.9707085380565926,
+  "classifier_only_route_precision_mean": 0.9112643785912065,
+  "classifier_only_route_recall_mean": 0.9684778762685349,
+  "classifier_only_route_f1_mean": 0.9310407024470212,
+  "hmm_top1_accuracy": 0.9489645346766398,
+  "hmm_route_continuity_mean": 0.9988498579088813,
+  "hmm_route_precision_mean": 0.9645558705100706,
+  "hmm_route_recall_mean": 0.9693985136923651,
+  "hmm_route_f1_mean": 0.965264464868272,
+  "mean_total_s_per_trip": 0.7509374199958984
+}

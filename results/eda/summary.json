@@ -1,0 +1,86 @@
+{
+  "student_test": {
+    "trips": 10,
+    "observations": 19160,
+    "obs_per_trip": {
+      "count": 10.0,
+      "mean": 1916.0,
+      "std": 1335.4,
+      "min": 262.0,
+      "25%": 917.8,
+      "50%": 1420.0,
+      "75%": 2872.0,
+      "max": 3958.0
+    },
+    "missing_values_track": 0,
+    "missing_values_nodes": 0,
+    "coords_out_of_range": 0,
+    "nonpositive_dt": 0,
+    "frac_dt_exactly_1s": 0.9862140992167102,
+    "dt_quantiles": {
+      "0.5": 1.0,
+      "0.9": 1.0,
+      "0.99": 2.0,
+      "0.999": 11.0,
+      "1.0": 210.0
+    },
+    "gaps_gt5s": 44,
+    "gaps_gt30s": 2,
+    "trips_with_route_breaks": 1,
+    "total_route_breaks": 1,
+    "invalid_arc_or_route_ids": 0,
+    "isolated_nodes": 0,
+    "median_weak_components": 11.0,
+    "median_frac_arcs_with_reverse": 0.9326111818223632,
+    "align_dist_quantiles": {
+      "0.5": 5.266308195372279,
+      "0.9": 13.451899193960216,
+      "0.95": 16.873116728067508,
+      "0.99": 28.09574228177835
+    },
+    "uncertain_labels": 27,
+    "countries_utm_zones": 9
+  },
+  "train": {
+    "trips": 80,
+    "observations": 208417,
+    "obs_per_trip": {
+      "count": 80.0,
+      "mean": 2605.2,
+      "std": 3312.3,
+      "min": 361.0,
+      "25%": 945.8,
+      "50%": 1529.0,
+      "75%": 2792.8,
+      "max": 19313.0
+    },
+    "missing_values_track": 0,
+    "missing_values_nodes": 0,
+    "coords_out_of_range": 0,
+    "nonpositive_dt": 0,
+    "frac_dt_exactly_1s": 0.96503741534149,
+    "dt_quantiles": {
+      "0.5": 1.0,
+      "0.9": 1.0,
+      "0.99": 3.0,
+      "0.999": 20.0,
+      "1.0": 153064.0
+    },
+    "gaps_gt5s": 1216,
+    "gaps_gt30s": 133,
+    "trips_with_route_breaks": 10,
+    "total_route_breaks": 13,
+    "invalid_arc_or_route_ids": 0,
+    "isolated_nodes": 0,
+    "median_weak_components": 20.0,
+    "median_frac_arcs_with_reverse": 0.9511203120769942,
+    "align_dist_quantiles": {
+      "0.5": 5.681207222791431,
+      "0.9": 89.76305500345478,
+      "0.95": 142.8309771206342,
+      "0.99": 208.8252655558706
+    },
+    "uncertain_labels": 23163,
+    "countries_utm_zones": 23
+  }
+}

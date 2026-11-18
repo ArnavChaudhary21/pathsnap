@@ -1,0 +1,8 @@
+Model,Algorithm family,Key configuration,CV Macro F1,CV Top-1,Top-1 Accuracy (student test),Route continuity (student test),Student-Test Macro F1,Precision (pos),Recall (pos),Log Loss (student test),Route F1 (student test),Inference (ms / 1000 obs),Fit time all train (s)
+Logistic Regression,Linear / probabilistic,"C=1.0, max_iter=2000",0.9377 ± 0.0157,0.8918,0.8836,0.9529,0.9322,0.8836,0.8848,0.1041,0.9399,2.2,1.6
+Gaussian Naive Bayes,Probabilistic (generative),"var_smoothing=1e-09, quantile_normal=True",0.9235 ± 0.0180,0.8678,0.8613,0.9297,0.9192,0.8613,0.8624,0.7905,0.8990,29.1,2.6
+KNN (distance-weighted),Instance-based,"n_neighbors=50, weights=distance",0.9347 ± 0.0147,0.8867,0.8785,0.9489,0.9293,0.8785,0.8797,0.1115,0.9390,2571.0,0.2
+Random Forest,Tree ensemble (bagging),"n_estimators=200, min_samples_leaf=5, max_features=sqrt",0.9465 ± 0.0146,0.9066,0.9030,0.9644,0.9436,0.9030,0.9042,0.0747,0.9529,51.0,122.6
+LightGBM,Boosting,"n_estimators=400, learning_rate=0.05, num_leaves=63, min_child_samples=20, subsample=1.0, colsample_bytree=1.0, reg_lambda=0.0",0.9462 ± 0.0151,0.9060,0.9064,0.9679,0.9456,0.9064,0.9076,0.0722,0.9530,287.0,30.3
+MLP,Neural network,"hidden_layer_sizes=[64, 32], alpha=0.0001, learning_rate_init=0.001, batch_size=512, max_iter=60, early_stopping=True",0.9431 ± 0.0140,0.9008,0.8913,0.9670,0.9367,0.8913,0.8925,0.0832,0.9525,2.9,42.5
+LightGBM (Bayes-tuned),Boosting,"n_estimators=553, learning_rate=0.11772540256682847, num_leaves=197, min_child_samples=97, subsample=0.9930363637200957, colsample_bytree=0.8027562159805006, reg_lambda=0.028066124695364212",0.9471 ± 0.0147,0.9075,0.9060,0.9703,0.9453,0.9060,0.9072,0.0946,0.9553,54.1,8.2

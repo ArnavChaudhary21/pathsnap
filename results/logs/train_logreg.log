@@ -1,0 +1,6 @@
+[logreg] fold 0: val F1=0.9247 top1=0.8673 ll=0.1257 | train F1=0.9398 (1.9s)
+[logreg] fold 1: val F1=0.9564 top1=0.9238 ll=0.0830 | train F1=0.9326 (1.4s)
+[logreg] fold 2: val F1=0.9550 top1=0.9223 ll=0.0817 | train F1=0.9327 (1.2s)
+[logreg] fold 3: val F1=0.9348 top1=0.8888 ll=0.1166 | train F1=0.9372 (1.5s)
+[logreg] fold 4: val F1=0.9177 top1=0.8568 ll=0.1346 | train F1=0.9430 (1.5s)
+[logreg] student_test: {"macro_f1": 0.9322, "precision_pos": 0.8836, "recall_pos": 0.8848, "log_loss": 0.1041, "top1_acc": 0.8836, "n_labelled_obs": 19133, "candidate_miss_rate": 0.0013, "route_continuity_mean": 0.9529, "route_f1_mean": 0.9399, "route_precision_mean": 0.9094, "route_recall_mean": 0.9744, "inference_s_total": 0.043, "inference_ms_per_1000_obs": 2.245}

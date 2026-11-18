@@ -1,0 +1,58 @@
+2026-11-18 11:25:10,081 INFO Loaded classifier=lgbm (provisional) hmm={'beta': 5.0, 'emission_weight': 1.0, 'break_penalty': 30.0, 'gap_growth': 0.1, 'backtrack_m': 15.0, 'cutoff_factor': 3.0, 'cutoff_slack': 150.0, 'vmax': 60.0, 'cutoff_cap': 8000.0} eval_dir=C:\Users\USER\Desktop\ml_project\Student folder\Student folder\student_test
+2026-11-18 11:25:17,163 INFO REQUEST client=127.0.0.1 trip=00000009 -> running candidates + classifier + Viterbi
+2026-11-18 11:25:18,559 INFO RESPONSE client=127.0.0.1 trip=00000009 n_obs=1049 predicted_arcs=378 top1=0.9085 time=1.40s
+2026-11-18 11:25:19,570 WARNING REJECT client=127.0.0.1 trip='../train' (unknown trip)
+2026-11-18 15:56:59,754 INFO Loaded classifier=lgbm_tuned hmm={'beta': 5.0, 'emission_weight': 1.0, 'break_penalty': 30.0, 'gap_growth': 0.1, 'backtrack_m': 15.0, 'cutoff_factor': 3.0, 'cutoff_slack': 150.0, 'vmax': 60.0, 'cutoff_cap': 8000.0} eval_dir=c:\Users\USER\Desktop\ml_project\evaluator_test\evaluator_test
+2026-11-18 15:57:00,742 INFO REQUEST client=127.0.0.1 trip=00000015 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:02,404 INFO RESPONSE client=127.0.0.1 trip=00000015 n_obs=6854 predicted_arcs=283 top1=0.9104 time=1.66s
+2026-11-18 15:57:03,594 INFO REQUEST client=127.0.0.1 trip=00000017 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:04,898 INFO RESPONSE client=127.0.0.1 trip=00000017 n_obs=1346 predicted_arcs=599 top1=0.9480 time=1.30s
+2026-11-18 15:57:05,561 INFO REQUEST client=127.0.0.1 trip=00000023 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:05,876 INFO RESPONSE client=127.0.0.1 trip=00000023 n_obs=458 predicted_arcs=60 top1=0.9498 time=0.31s
+2026-11-18 15:57:06,324 INFO REQUEST client=127.0.0.1 trip=00000030 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:06,851 INFO RESPONSE client=127.0.0.1 trip=00000030 n_obs=654 predicted_arcs=266 top1=0.8869 time=0.53s
+2026-11-18 15:57:07,417 INFO REQUEST client=127.0.0.1 trip=00000049 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:08,341 INFO RESPONSE client=127.0.0.1 trip=00000049 n_obs=2642 predicted_arcs=394 top1=0.9970 time=0.92s
+2026-11-18 15:57:09,503 INFO REQUEST client=127.0.0.1 trip=00000059 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:10,286 INFO RESPONSE client=127.0.0.1 trip=00000059 n_obs=1031 predicted_arcs=351 top1=0.9806 time=0.78s
+2026-11-18 15:57:10,954 INFO REQUEST client=127.0.0.1 trip=00000067 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:11,317 INFO RESPONSE client=127.0.0.1 trip=00000067 n_obs=916 predicted_arcs=74 top1=0.9640 time=0.36s
+2026-11-18 15:57:11,992 INFO REQUEST client=127.0.0.1 trip=00000073 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:13,010 INFO RESPONSE client=127.0.0.1 trip=00000073 n_obs=1144 predicted_arcs=228 top1=0.9895 time=1.02s
+2026-11-18 15:57:13,709 INFO REQUEST client=127.0.0.1 trip=00000087 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:14,940 INFO RESPONSE client=127.0.0.1 trip=00000087 n_obs=1399 predicted_arcs=440 top1=0.9964 time=1.23s
+2026-11-18 15:57:15,882 INFO REQUEST client=127.0.0.1 trip=00000094 -> running candidates + classifier + Viterbi
+2026-11-18 15:57:17,365 INFO RESPONSE client=127.0.0.1 trip=00000094 n_obs=3230 predicted_arcs=584 top1=0.9548 time=1.48s
+2026-11-18 15:57:18,792 WARNING REJECT client=127.0.0.1 trip='../x' (unknown trip)
+2026-11-18 16:04:51,477 INFO Loaded classifier=lgbm_tuned hmm={'beta': 5.0, 'emission_weight': 1.0, 'break_penalty': 30.0, 'gap_growth': 0.1, 'backtrack_m': 15.0, 'cutoff_factor': 3.0, 'cutoff_slack': 150.0, 'vmax': 60.0, 'cutoff_cap': 8000.0} eval_dir=c:\Users\USER\Desktop\ml_project\evaluator_test\evaluator_test
+2026-11-18 16:05:06,673 INFO REQUEST client=127.0.0.1 trip=00000015 -> running candidates + classifier + Viterbi
+2026-11-18 16:05:13,407 INFO RESPONSE client=127.0.0.1 trip=00000015 n_obs=6854 predicted_arcs=283 top1=0.9104 time=6.73s
+2026-11-18 16:05:27,077 INFO REQUEST client=127.0.0.1 trip=00000017 -> running candidates + classifier + Viterbi
+2026-11-18 16:05:31,080 INFO RESPONSE client=127.0.0.1 trip=00000017 n_obs=1346 predicted_arcs=599 top1=0.9480 time=4.00s
+2026-11-18 16:05:39,481 INFO REQUEST client=127.0.0.1 trip=00000015 -> running candidates + classifier + Viterbi
+2026-11-18 16:05:45,937 INFO RESPONSE client=127.0.0.1 trip=00000015 n_obs=6854 predicted_arcs=283 top1=0.9104 time=6.45s
+2026-11-18 16:06:34,937 INFO REQUEST client=127.0.0.1 trip=00000017 -> running candidates + classifier + Viterbi
+2026-11-18 16:06:39,195 INFO RESPONSE client=127.0.0.1 trip=00000017 n_obs=1346 predicted_arcs=599 top1=0.9480 time=4.26s
+2026-11-18 16:07:08,638 INFO REQUEST client=127.0.0.1 trip=00000094 -> running candidates + classifier + Viterbi
+2026-11-18 16:07:12,889 INFO RESPONSE client=127.0.0.1 trip=00000094 n_obs=3230 predicted_arcs=584 top1=0.9548 time=4.25s
+2026-11-18 16:07:25,146 INFO REQUEST client=127.0.0.1 trip=00000015 -> running candidates + classifier + Viterbi
+2026-11-18 16:07:31,749 INFO RESPONSE client=127.0.0.1 trip=00000015 n_obs=6854 predicted_arcs=283 top1=0.9104 time=6.60s
+2026-11-18 16:07:38,745 INFO REQUEST client=127.0.0.1 trip=00000017 -> running candidates + classifier + Viterbi
+2026-11-18 16:07:42,575 INFO RESPONSE client=127.0.0.1 trip=00000017 n_obs=1346 predicted_arcs=599 top1=0.9480 time=3.83s
+2026-11-18 16:07:48,234 INFO REQUEST client=127.0.0.1 trip=00000023 -> running candidates + classifier + Viterbi
+2026-11-18 16:07:48,971 INFO RESPONSE client=127.0.0.1 trip=00000023 n_obs=458 predicted_arcs=60 top1=0.9498 time=0.73s
+2026-11-18 16:07:56,829 INFO REQUEST client=127.0.0.1 trip=00000030 -> running candidates + classifier + Viterbi
+2026-11-18 16:07:58,642 INFO RESPONSE client=127.0.0.1 trip=00000030 n_obs=654 predicted_arcs=266 top1=0.8869 time=1.81s
+2026-11-18 16:08:02,248 INFO REQUEST client=127.0.0.1 trip=00000049 -> running candidates + classifier + Viterbi
+2026-11-18 16:08:05,391 INFO RESPONSE client=127.0.0.1 trip=00000049 n_obs=2642 predicted_arcs=394 top1=0.9970 time=3.14s
+2026-11-18 16:08:48,594 INFO REQUEST client=127.0.0.1 trip=00000059 -> running candidates + classifier + Viterbi
+2026-11-18 16:08:50,924 INFO RESPONSE client=127.0.0.1 trip=00000059 n_obs=1031 predicted_arcs=351 top1=0.9806 time=2.33s
+2026-11-18 16:08:55,639 INFO REQUEST client=127.0.0.1 trip=00000067 -> running candidates + classifier + Viterbi
+2026-11-18 16:08:56,600 INFO RESPONSE client=127.0.0.1 trip=00000067 n_obs=916 predicted_arcs=74 top1=0.9640 time=0.96s
+2026-11-18 16:09:07,246 INFO REQUEST client=127.0.0.1 trip=00000073 -> running candidates + classifier + Viterbi
+2026-11-18 16:09:10,480 INFO RESPONSE client=127.0.0.1 trip=00000073 n_obs=1144 predicted_arcs=228 top1=0.9895 time=3.23s
+2026-11-18 16:09:16,061 INFO REQUEST client=127.0.0.1 trip=00000087 -> running candidates + classifier + Viterbi
+2026-11-18 16:09:19,326 INFO RESPONSE client=127.0.0.1 trip=00000087 n_obs=1399 predicted_arcs=440 top1=0.9964 time=3.26s
+2026-11-18 16:09:27,272 INFO REQUEST client=127.0.0.1 trip=00000094 -> running candidates + classifier + Viterbi
+2026-11-18 16:09:31,733 INFO RESPONSE client=127.0.0.1 trip=00000094 n_obs=3230 predicted_arcs=584 top1=0.9548 time=4.46s
+2026-11-18 16:22:13,194 INFO Loaded classifier=lgbm_tuned hmm={'beta': 5.0, 'emission_weight': 1.0, 'break_penalty': 30.0, 'gap_growth': 0.1, 'backtrack_m': 15.0, 'cutoff_factor': 3.0, 'cutoff_slack': 150.0, 'vmax': 60.0, 'cutoff_cap': 8000.0} eval_dir=C:\Users\USER\Desktop\ml_project\evaluator_test\evaluator_test
